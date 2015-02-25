@@ -4,6 +4,12 @@
 
 
 ## Rails 4.1.10 (March 19, 2015) ##
+*   Fix regression in functional tests. Responses should have default headers
+    assigned.
+
+    See #18423.
+
+    *Jeremy Kemper*, *Yves Senn*
 
 *   Preserve default format when generating URLs
 
