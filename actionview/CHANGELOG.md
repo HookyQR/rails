@@ -4,6 +4,14 @@
 
 
 ## Rails 4.1.10 (March 19, 2015) ##
+*   `translate` should accept nils as members of the `:default`
+    parameter without raising a translation missing error.  Fixes a
+    regression introduced 362557e.
+
+    Fixes #19419
+
+    *Justin Coyne*
+
 *   `number_to_percentage` does not crash with `Float::NAN` or `Float::INFINITY`
     as input when `precision: 0` is used.
 
