@@ -1,6 +1,16 @@
 ## Rails 4.1.11 (June 16, 2015) ##
 
 *   No changes.
+*   Mailer previews no longer crash when the `mail` method wasn't called
+    (`NullMail`).
+
+    Fixes #19849.
+
+    *Yves Senn*
+
+*   Make sure labels and values line up in mailer previews.
+
+    *Yves Senn*
 
 
 ## Rails 4.1.10 (March 19, 2015) ##
