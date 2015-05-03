@@ -1,6 +1,14 @@
 ## Rails 4.1.11 (June 16, 2015) ##
 
 *   No changes.
+
+## merged
+
+*   Mailer preview now uses `url_for` to fix links to emails for apps running on
+    a subdirectory.
+
+    *Remo Mueller*
+
 *   Mailer previews no longer crash when the `mail` method wasn't called
     (`NullMail`).
 
