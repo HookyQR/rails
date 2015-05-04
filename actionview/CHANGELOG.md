@@ -4,6 +4,13 @@
 
 
 ## Rails 4.1.10 (March 19, 2015) ##
+*   `translate` should handle `raise` flag correctly in case of both main and default
+    translation is missing.
+
+    Fixes #19967
+
+    *Bernard Potocki*
+
 *   `translate` should accept nils as members of the `:default`
     parameter without raising a translation missing error.  Fixes a
     regression introduced 362557e.
