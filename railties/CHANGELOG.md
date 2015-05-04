@@ -2,6 +2,13 @@
 
 *   No changes.
 
+*   Fix mailer previews with attachments by using the mail gem's own API to
+    locate the first part of the correct mime type.
+
+    Fixes #14435.
+
+    *Andrew White*
+
 
 ## Rails 4.1.10 (March 19, 2015) ##
 
